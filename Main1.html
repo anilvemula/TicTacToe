@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>
+    Tic Tac Toe
+</title>
+
+<head>
+    <div id="bck">
+        <p style="font-size:40px;" align="center">
+            <strong>Player 1:X and Player 2:O</strong><br>
+            <strong>now it's turn of player </strong>
+            <strong id="turn">1</strong>
+        </p>
+</head>
+<style>
+    table {
+        margin-bottom: 50px;
+        margin-left: 425px;
+        margin-top: 50px;
+    }
+    
+    .bck {
+        background: #4D4D4D;
+    }
+    
+    table,
+    tr,
+    td {
+        table-layout: fixed;
+    }
+    
+    td {
+        width: 30px;
+        height: 30px;
+        font-size: 100px;
+        background: #F16A70;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        border-radius: 16px;
+        -webkit-box-shadow: 2px;
+        -moz-box-shadow: 2px;
+        box-shadow: 2px;
+    }
+    
+    span {
+        font-size: 100px;
+        padding-left: 30px;
+        text-shadow: 4px 4px 5px grey;
+        color: white;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+    span:hover,
+    td:hover {
+        background: #4d4d4d;
+    }
+</style>
+<table id="main" cellspacing="10" border="0" width=450 height=450>
+    <tr id="first_row">
+        <td id="11">
+            <span id="1"></span>
+        </td>
+        <td id="12">
+            <span id="2"></span>
+        </td>
+        <td id="13">
+            <span id="3"></span>
+        </td>
+    </tr>
+    <tr id="second_row">
+        <td id="14">
+            <span id="4"></span>
+        </td>
+        <td id="15">
+            <span id="5"></span>
+        </td>
+        <td id="16"> <span id="6"></span>
+        </td>
+    </tr>
+    <tr id="third_row">
+        <td id="17">
+            <span id="7"></span>
+        </td>
+        <td id="18">
+            <span id="8"></span>
+        </td>
+        <td id="19">
+            <span id="9"></span>
+        </td>
+    </tr>
+</table>
+<p id="won"></p>
+</div>
+<script type="text/javascript" src="script1.js">
+</script>
+
+</html>
